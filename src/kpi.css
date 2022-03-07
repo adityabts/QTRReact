@@ -1,0 +1,78 @@
+.kpi-title {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.kpi-unit {
+  margin-bottom: 1rem;
+}
+
+.kpi-max {
+  text-align: right;
+  font-weight: 700;
+}
+
+.kpi-min {
+  text-align: right;
+  font-weight: 700;
+}
+
+.kpi-min,
+.kpi-max {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.flex-right,
+.flex-left {
+  flex: 1;
+}
+
+.flex-left {
+  line-height: 1.5rem;
+}
+
+.kpi-box-1,
+.kpi-box-2 {
+  border: 1px solid yellow;
+  width: 275px;
+  color: yellow;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.kpi-box-2 {
+  min-width: 575px !important;
+}
+
+.kpi-value {
+  text-align: center;
+  font-size: 7rem;
+  font-weight: bolder;
+  padding: 0rem 1rem;
+}
+
+.kpi-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  min-height: 82vh;
+  padding-bottom: 7rem;
+}
+
+.key-value {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1;
+  font-size: 2rem;
+  font-weight: 900;
+  align-items: center;
+  margin-right: 3rem;
+}
+.key-value > div {
+  margin-right: 1rem;
+}

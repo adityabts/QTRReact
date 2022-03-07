@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,600;1,300&display=swap");
+
+body {
+  background-color: #07203c;
+  margin: 0;
+  font-family: "Barlow", sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.border-sky {
+  border: 2px solid #0e86f9;
+
+  color: #fff;
+}
+
+.border-transperant {
+  border: 2px solid transparent;
+
+  color: #cfcfcf;
+}
+
+#vertical-zoom-pane {
+  position: absolute;
+  top: 0px;
+  width: 50px;
+  height: 100%;
+  background: transparent;
+  z-index: 1;
+  cursor: n-resize;
+}
+
+#horizontle-zoom-pane {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  z-index: 1;
+  cursor: e-resize;
+}
